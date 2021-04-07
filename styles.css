@@ -1,3 +1,60 @@
+/*Les couleurs de la charte sont le
+ bleu #0065FC, et sa version plus claire
+  #DEEBFF ainsi que 
+  le gris pour le fond #F2F2F2.*/
+
+/*la barre de recherche*/
+form
+{
+	display: flex;
+}
+form i
+{
+  background: lightgrey;
+  border: 2.7px lightgrey solid;
+  border-radius: 5px 0px 0px 5px;
+
+}
+#rechercher
+{
+	border-radius: 0px 10px 10px 0px;
+	color: white;
+	background: #0065FC;
+	border: 2px #0065FC solid;
+}
+/*filtre css*/
+
+#filtre ul
+{
+	list-style-type: none;
+	display: flex;
+}
+#filtre
+{
+	display: flex;
+}
+#filtre i
+{   background: #DEEBFF;
+	color: #0065fc;
+	padding: 8px;
+	border-radius: 16px;
+}
+#filtre li
+{
+	margin-right: 70px;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	
+	vertical-align: 
+}
+/*css section*/
+section img
+{
+	width: 20%;
+}
+
+
+/*précédent*/
 #all_page
 {
 	width: 90%;
@@ -26,7 +83,7 @@ nav li
 nav a
 {
 	text-decoration: none;
-	color: blue;
+	
 	
 }
 
