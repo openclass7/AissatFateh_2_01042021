@@ -27,6 +27,11 @@ form i
 	border: 2px #0065FC solid;
 }
 /*filtre css*/
+li:hover
+{
+	color: olive;
+	background: lightgreen;
+}
 
 #filtre ul
 {
