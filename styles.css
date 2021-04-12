@@ -134,9 +134,9 @@ section :nth-child(2)
 }
 section img
 {
-width: 100%;
-border-radius: 15px 15px 0 0;	
-height: 150px;
+	width: 100%;
+	border-radius: 15px 15px 0 0;	
+	height: 150px;
 }
 
 section
@@ -238,16 +238,6 @@ aside i
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*below css*/
 
 .below
@@ -255,10 +245,24 @@ aside i
 	border: 2px blue solid;
 	margin-top: 5%;
 	width: 95%;
-	height: 300px;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
 
 }
-
+.last_a img
+{
+	width: 100%;
+	border-radius: 15px 15px 0 0;	
+	height: 400px;
+} 
+.last_a
+{
+	border: 1px red solid;
+	width: 22%;
+	height: 470px;
+	background: pink;
+}
 
 
 
