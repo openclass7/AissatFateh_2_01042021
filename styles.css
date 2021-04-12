@@ -230,7 +230,7 @@ aside a
 {
 	font-size: 1.3em;
 	padding-top: 15px;
-	padding-left: 0px;-----------------------------
+	padding-left: 0px;
 }
 aside i
 {
@@ -243,7 +243,7 @@ aside i
 .below
 {
 	border: 2px white solid;
-	margin-top: 5%;
+	margin-top: 1%;
 	width: 95%;
 	height: 500px;
 	display: flex;
@@ -273,7 +273,7 @@ aside i
 .last_ca img
 {
 	width: 100%;
-	height: 190px;
+	height: 220px;
 	border-radius: 15px 15px 0 0;
 	position: absolute;
 	top: 0px;
@@ -282,17 +282,17 @@ aside i
 .last_cb img
 {
 	width: 100%;
-	height: 150px;
+	height: 120px;
 	border-radius: 15px 15px 0 0;
 	position: absolute;
 	top: 0px;
 }
 .last_ca
 {
-	border: 3px black solid;
+	border: 3px #F2F2F2 solid;
 	border-radius: 15px;
 	width: 100%;
-	height: 240px;
+	height: 270px;
 	box-shadow:5px 5px 5px #F2F2F2;
 	position: relative;
 	margin-bottom: 25px;
@@ -300,10 +300,10 @@ aside i
 }
 .last_cb
 {
-	border: 3px black solid;
+	border: 3px #F2F2F2 solid;
 	border-radius: 15px;
 	width: 100%;
-	height: 200px;
+	height: 170px;
 	box-shadow:5px 5px 5px #F2F2F2;
 	position: relative;
 
@@ -317,13 +317,58 @@ aside i
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
+
+.last_cc img
+{
+	width: 100%;
+	height: 170px;
+	border-radius: 15px 15px 0 0;
+	position: absolute;
+	top: 0px;
+	
+}
+.last_cd img
+{
+	width: 100%;
+	height: 170px;
+	border-radius: 15px 15px 0 0;
+	position: absolute;
+	top: 0px;
+}
+.last_cc
+{
+	border: 3px #F2F2F2 solid;
+	border-radius: 15px;
+	width: 100%;
+	height: 220px;
+	box-shadow:5px 5px 5px #F2F2F2;
+	position: relative;
+	margin-bottom: 25px;
+
+}
+.last_cd
+{
+	border: 3px #F2F2F2 solid;
+	border-radius: 15px;
+	width: 100%;
+	height: 220px;
+	box-shadow:5px 5px 5px #F2F2F2;
+	position: relative;
+
+}
 .below .hotel_n
 {
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 }
-
+#title_a
+{
+	margin-top: 50px;
+	margin-bottom: 0px;
+	font-size: 1.3em;
+}
 
 
 
