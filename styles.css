@@ -173,7 +173,7 @@ section i
 	width: 30%;
 	margin-right: 5%;
 	border-radius: 15px;
-	border:1px red solid;
+	border:1px #F2F2F2 solid;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -187,7 +187,7 @@ aside
 	height: 142px;
 	border-radius: 15px;
 	margin-bottom: 20px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 
 }
 aside img
@@ -219,7 +219,7 @@ aside img
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 aside a
 {
@@ -232,7 +232,10 @@ aside a
 	padding-top: 15px;
 	padding-left: 0px;-----------------------------
 }
-
+aside i
+{
+	color: #0065FC;
+}
 
 
 
