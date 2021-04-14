@@ -166,7 +166,11 @@ section i
 	padding: 0px;
 }
 
-/*aside css*/
+a
+{
+	text-decoration: none;
+}
+/*css aside*/
 #lateral
 {
 	background:#F2F2F2;
@@ -372,18 +376,7 @@ aside i
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*précédent*/
+/*header*/
 #all_page
 {
 	width: 90%;
@@ -443,10 +436,35 @@ nav
 	flex-direction: row;
 	height: 30%;
 }
+/*footer*/
+footer
+{
+	border: 1px solid #F2F2F2;
+	height: 250px;
+	background: #F2F2F2;
+	display: flex;
+	width: 90%;
+}
+footer div
+{
+	width: 30%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+footer h1
+{
+	font-size: 1.3em;
+}
+
+
+
+
+
 
 body
 {
 	font-family: Raleway-medium, sans-serif;
+
 }
 @font-face
 {
