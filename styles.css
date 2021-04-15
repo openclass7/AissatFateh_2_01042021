@@ -186,13 +186,18 @@ a
 	color: black;
 }
 
+/* couleur grise des étoiles*/
 
-
-#grey
+#contenu :nth-child(3) :nth-child(8),
+#contenu :nth-child(4) :nth-child(7),
+#contenu :nth-child(4) :nth-child(8),
+#contenu :nth-child(5) :nth-child(8),
+#star :nth-child(8),
+#lateral  :nth-child(3) :nth-child(10),
+#lateral  :nth-child(4) :nth-child(10)
 {
 	color: #F2F2F2;
 }
-
 
 
 
