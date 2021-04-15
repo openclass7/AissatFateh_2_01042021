@@ -1,9 +1,13 @@
 /*Les couleurs de la charte sont le
  bleu #0065FC, et sa version plus claire
   #DEEBFF ainsi que 
-  le gris pour le fond #F2F2F2.*/
+  le gris pour le fond #F2F2F2.
+@media screen and (max-width: 1280px)
+{} */ 
 
 /*la barre de recherche*/
+
+
 form
 {
 	display: flex;
@@ -55,7 +59,9 @@ form
 /*filtre css*/
 
 #filtre
-{	width: 150%;
+{	
+	/*width:900px;  150% avant------------------*/
+	width:900px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -116,6 +122,11 @@ section :nth-child(2)
 {
 	padding-left: 10px;
 }
+
+
+
+
+
 
  #afficher
 {
@@ -393,6 +404,7 @@ aside i
 header h1
 {
 	font-size: 1.3em;
+
 }
 
 /* filtre*/
@@ -429,6 +441,8 @@ header
 	font-family: Raleway-medium, sans-serif;
 	display: flex;
 	justify-content: space-between;
+	width: 900px;/*ajouté ------------------------------------*/
+	
 }
 nav
 {
@@ -464,6 +478,7 @@ footer h1
 body
 {
 	font-family: Raleway-medium, sans-serif;
+
 
 }
 @font-face
