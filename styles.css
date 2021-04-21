@@ -5,26 +5,14 @@
 @media screen and (max-width: 1280px)
 {} */ 
 
-/*la barre de recherche*/
-/*@media screen and (max-width: 1280px)
-{
-	#all_page
-	{
-		width: auto;
-	}
-	nav
-	{	display: flex;
-		flex-direction: row;
-	}
-}
-*/
+/*css media query*/
 
 /* css body-----------------------------------------*/
 
 body
 {
 	font-family: Raleway-medium, sans-serif;
-	margin:0%;
+
 }
 @font-face
 {
@@ -51,6 +39,8 @@ img
 	padding-right: 2%;
 	margin: auto;
 	position: relative;
+
+
 }
 
 
@@ -84,11 +74,10 @@ header h1
  
 nav
 {
-	display: flex;
-	flex-direction: row;
-	height: 30%;
-	height: 30%;
-	width: 30%;
+	/*display: flex;
+	flex-direction: row;*/
+	
+
 }
 nav ul
 {
@@ -193,7 +182,6 @@ form
 	display: flex;
 	align-items: center;
 	padding-right: 3%;
-	font-size: 1em;
 }
 .titles:hover
 {
@@ -220,7 +208,7 @@ section i
 {
 	color: white;
 	border: 1px solid #F2F2F2;
-	background:radial-gradient(#0065FC, #F2F2F2 ,#F2F2F2);
+	background:radial-gradient(#0065FC, #F2F2F2 ,#1b1414);
 	border-radius: 50%;
 	padding: 0px;
 }
@@ -234,7 +222,7 @@ section i
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;	
-	align-items: space-between;
+	
 }
 #hebergement
 {
@@ -246,8 +234,9 @@ section i
 #hebergement h1 
 {
 	font-size: 1.3em;
-	padding-top: 15px;
-	padding-left: 20px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 15px;
 }
 section :nth-child(2)
 {
@@ -261,7 +250,7 @@ section :nth-child(2)
 {
 	font-size: 1.3em;
 	padding-bottom: 15px;
-	padding-left: 20px;
+	padding-left: 40px;
 	font-weight: bold;
 }
 
@@ -269,14 +258,14 @@ section img
 {
 	width: 100%;
 	border-radius: 15px 15px 0 0;	
-	height: 150px;
+	height: 140px;
 }
 
 section
 {	
 	border: 3px solid white;
 	background: white;
-	width: 25%;
+	width: 28%;
 	border-radius: 15px;
 	margin-bottom: 20px;
 	
@@ -308,7 +297,12 @@ section
 	border:1px #F2F2F2 solid;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;	
+	justify-content: center;
+
+}
+.fa-chart-line
+{
+	margin-left: 190px;
 }
 aside
 {	
@@ -356,8 +350,9 @@ aside a
 #lateral h1
 {
 	font-size: 1.3em;
-	padding-top: 15px;
+	padding-top: 25px;
 	padding-left: 0px;
+	margin-bottom: -10px;
 }
 aside i
 {
@@ -489,7 +484,7 @@ aside i
 	bottom: 20px;
 	left: 20px;
 }
-#title_a
+#ancre2
 {
 	margin-top: 50px;
 	margin-bottom: 0px;
@@ -503,7 +498,8 @@ footer
 	height: 220px;
 	background: #F2F2F2;
 	display: flex;
-	width: 100%;
+	width: 100%;	
+	margin-top: 40px;
 }
 footer div
 {
@@ -517,5 +513,225 @@ footer h1
 }
 
 
+/*media query tablette-------------------------------*/
+@media screen and (max-width:1024px )
+{
+	nav ul
+	{	display: flex;
+		flex-direction: column-reverse;
+	}
+	nav li
+	{
+		margin-bottom: 50px;
+	
+	}
+	
+	#filtre
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#search
+	{
+		width: 30%;	
+	}
+	.titles
+	{
+		width: 45%;
+		margin-bottom: 8px;
+	}
+	#hebergement
+	{
+		width: 100%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	#contenu
+	{ 
+		width: 100%;
+	}
+
+	
+	section
+	{
+		width: 40%;
+	}
+	section img
+	{
+		height: 240px;
+	}
+	#lateral
+	{
+		width: 100%;
+		order: -1;
+		margin-bottom: 50px;
+		padding-bottom: 30px;
+	}
+	#lateral h1
+	{
+		margin-bottom: 20px;
+	}
+	.fa-chart-line
+	{
+		margin-left: 400px;
+	}
+	.below
+	{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.last_a, .last_c
+	{
+		width: 45%;
+		margin-bottom: 20px;
+	}
+
+	footer
+	{
+		margin-top: 520px;
+			
+	}
+	footer div
+	{
+		margin-right: 30px;
+	}
+}
+/*media query phone----------------------------*/
+@media screen and (max-width: 768px)
+{
+	#title
+	{
+		display: block;
+	}
+	#logo
+	{
+		width: 100%;
+	}
+
+	nav ul
+	{
+		flex-direction: row;
+
+		padding-left: 0px;
+	}
+	nav
+	{
+		margin-top: 50px;
+	}
+	nav li
+	{
+		width: 20%;
+		
+	}
+/*
+nav
+{
+	display: flex;
+	flex-direction: row;
+	
+
+}
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	margin-right: 0%;
+	justify-content: space-between;
+}
+nav li
+{
+	margin-right:60px;  
+}
+
+*/
 
 
+
+	.titles
+	{
+		width: 90%;
+	}
+
+	section
+	{
+		width: 100%;
+	}
+	.fa-chart-line
+	{
+		margin-left: 65px;
+	}
+	.below
+	{
+		display: block;
+	}
+
+	.last_a , .last_c
+	{ 
+		width: 100%;
+	}
+	#all_page
+	{
+		margin-bottom: 50px;
+	}
+	
+	footer
+	{
+		
+		margin-top: 1490px;
+		display: block;
+		height: auto;
+
+	}
+	footer div
+	{
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	/*
+	footer div
+	{
+		width: 100%;
+		margin-bottom: 30px;
+
+
+
+		margin-left: 100px:;
+	}
+	
+
+
+
+}
+
+
+/*
+@media screen and (max-width: 500px)
+{	
+	#all_page
+	{
+		width: 100%;
+		position: static;
+	}
+	
+	#hebergement
+	{
+		width: 100%;
+	}
+	#lateral
+	{
+		width: 100%;
+		order: -1;
+	}
+	#contenu
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	section
+	{
+		width: 100%;
+
+	}
+}
+
+*/
