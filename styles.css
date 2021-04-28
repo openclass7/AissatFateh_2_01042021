@@ -43,7 +43,7 @@ header
 }
 header h1
 {
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
 
 
@@ -235,7 +235,7 @@ section i
 }
 #hebergement h1 
 {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	padding-top: 25px;
 	padding-left: 25px;
 	padding-bottom: 15px;
@@ -247,6 +247,7 @@ section :nth-child(2)
 .normal
 {
 	font-weight: normal;
+	margin-left: -10px;
 }
  #afficher
 {
@@ -300,11 +301,26 @@ section
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+#lateral h1
+{
+	font-size: 1.1em;
+	/*padding-top: 25px;
+	padding-left: 0px;*/
+	
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin:10% 6% -3% 6%;
 
+}
+#chart
+{
+	width: 90%;
 }
 .fa-chart-line
 {
-	margin-left: 10em;
+	
 }
 aside
 {	
@@ -351,13 +367,6 @@ aside a
 {
 	display: flex;
 	justify-content: flex-start;
-}
-#lateral h1
-{
-	font-size: 1.3em;
-	padding-top: 25px;
-	padding-left: 0px;
-	margin-bottom: 0px;
 }
 aside i
 {
@@ -522,23 +531,6 @@ footer p,footer h1, #afficher,.titles,
 	cursor: pointer;
 }
 
-
-
-/*media query point break 1500px------------------------*/
-@media screen and (max-width:1400px )
-{
-	.fa-chart-line
-	{
-		margin-left: 80px;
-	}
-
-}
-/*media query point break 1200px------------------------*/
-
-@media screen and (max-width:1200px )
-{
-	
-}
 /*media query point break 1144px-----------------------*/
 
 @media screen and (max-width:1144px )
@@ -573,12 +565,11 @@ footer p,footer h1, #afficher,.titles,
 	{
 		width: 20%;
 		margin-top: -20px;
-		
 	}
 	nav
 	{
 		border-bottom: 5px #F2F2F2 solid;
-		height: 111px;
+		height: 90px;
 		margin-bottom: 3em;
 	}
 	nav ul
@@ -590,22 +581,15 @@ footer p,footer h1, #afficher,.titles,
 	{
 		width: 20%;	
 	}
-		nav   :nth-child(1) a:hover
-	{
-		border-top: none;
-	}
-	nav   :nth-child(2) a:hover 
+	
+	nav   :nth-child(2) a:hover,
+	nav   :nth-child(3) a:hover
 	{
 		border-bottom:  5px #0065FC solid;
 		border-top: none;
 		color:#0065FC;	
 	}
-	nav   :nth-child(3) a:hover
-	{
-		border-bottom:  5px #0065FC solid;
-		border-top: none;
-		color:#0065FC;
-	}
+	
 	/*supppppppp
 	#line
 	{
@@ -703,11 +687,9 @@ footer p,footer h1, #afficher,.titles,
 	#lateral h1
 	{
 		margin-bottom: 20px;
+		margin-top: 40px;
 	}
-	.fa-chart-line
-	{
-		margin-left: 30em;
-	}
+	
 	.hotel_n  br
 	{
 		display: none;
@@ -798,25 +780,8 @@ footer p,footer h1, #afficher,.titles,
 		padding-bottom: 20px;
 	}
 }
-/*media query point break 950px------------------------*/
-@media screen and (max-width: 950px)
-{
-	.fa-chart-line
-	{
-		margin-left:22em;
-	}
-}
-/*media query point break 828px------------------------*/
-@media screen and (max-width: 828px)
-{
-	.cuatro
-	{
-		
-	}
-}
 
-
-/*media query phone------------------------------------*/
+/*media query phone  768px ------------------------------------*/
 @media screen and (max-width: 768px)
 {
 	nav   :nth-child(1) a:hover
@@ -838,17 +803,9 @@ footer p,footer h1, #afficher,.titles,
 	
 	header h1
 	{
-		font-size: 1.6em;
 		word-spacing: -2px;
 	}
-	#rechercher
-	{
-		width: 10%;
-	}
-	.marker
-	{
-		height: 55px;
-	}
+	
 /*--------------------------------------*/
 	#filtre
 	{
@@ -861,53 +818,26 @@ footer p,footer h1, #afficher,.titles,
 		width: 100%;
 		font-size: 1.3em;
 	}
-	 .uno
-	{
-		
-		
-	}
-	.dos
-	{
-		
-	}
+
 	.tres
-	{
-		
+	{		
 		margin-right: 4em;
 	}
-	.cuatro
-	{
-		
-	}
-	#filtre :nth-child(1)
-	{
-		
-	}
+
 	.titles
 	{
 		margin-bottom: 1em;	
 		
-	}
-	#filtre i
-    {   	
-		font-size: 1.5em;
 	}
 	#quantity
 	{
 		margin-top: 1em;
 	}
 	/*css lateral--------------*/
-	#lateral h1
-	{
-		margin-bottom: 30px;
-	}
+	
 	#lateral
 	{
 		border-radius: 0px;
-	}
-	.fa-chart-line
-	{
-		margin-left:14em;
 	}
 	.lateral_one i
 	{
@@ -973,13 +903,10 @@ footer p,footer h1, #afficher,.titles,
 	{
 		margin-bottom: 50px;
 	}
-	
 	footer
 	{		
 		margin-top: 55em;
-		
 	}
-
 	footer div
 	{
 		width: 100%;
@@ -988,18 +915,15 @@ footer p,footer h1, #afficher,.titles,
 	}
 }
 
-/*media query point break 680px------------------------*/
-@media screen and (max-width: 680px)
+/*media query pont break 328---------------*/
+@media screen and (max-width: 384px)
 {
-	.fa-chart-line
-	{
-		margin-left:10em;
-	}
-	#rechercher
-	{
-		width: 13%;
-	}
-
+	ul  :nth-child(2)/*hébergement*/
+	{		 
+		margin-right: 10%; 
+	}	
+	#lateral h1
+{
+	font-size: .8em;
+}	
 }
-
-/*  search-------  <i class="fas fa-search"></i>   */
