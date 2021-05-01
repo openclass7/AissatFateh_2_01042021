@@ -159,7 +159,7 @@ form
 	align-items: center;
 	padding-right: 3%;
 	width: auto;
-	margin-left: 25px;
+	margin-right: 25px;
 }
 .titles:hover
 {
@@ -711,20 +711,13 @@ footer p,footer h1, #afficher,.titles,
 		margin-right: 30px;
 		padding-left: 25px;
 		padding-bottom: 20px;
-	}
-	#all_page
-	{
-		/*padding-left: 4%;
-		padding-right: 2%;*/
+		width: fit-content;
 	}
 }
 
 /*media query phone  768px ------------------------------------*/
 @media screen and (max-width: 768px)
 {
-	
-	
-	
 	header h1
 	{
 		word-spacing: -2px;
