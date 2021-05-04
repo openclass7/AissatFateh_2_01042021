@@ -25,8 +25,6 @@ img
 #all_page
 {
 	padding-top: 25px;
-	/*padding-left: 2%;
-	padding-right: 2%;*/
 	margin-right: 2%;
 	margin-left: 2%;
 	position: relative;
@@ -61,13 +59,13 @@ nav
 {
 	width: 68%;
 }
-.first a:hover,
-.second a:hover
+.first-nav a:hover,
+.second-nav a:hover
 { border-top: 3px  #0065FC solid;
 	padding:25px 10px 0px 10px;
 }
 
-.third a
+.third-nav a
 {
 	color: #0065FC;
 	font-weight: bold;
@@ -115,12 +113,12 @@ form
 	width: 246px;
 }
 
-#search, #filtre,.hotel_n
+#search, #filter_icons,.picture-text
 {
 	font-weight: bold;
 }
  
-#rechercher, #find
+#find_text, #find_design
 {
 	border-radius: 0px 20px 20px 0px;
 	color: white;
@@ -130,26 +128,26 @@ form
 	width: 8em;
 	font-size: 1.2em;
 }
-#find
+#find_design
 {
 	display: none;
 }
 
-/*css filtre------------------------------------*/
-#filtre
+/*css filtres------------------------------------*/
+#filter_icons
 {	
 	display: flex;
 	flex-direction: row;
 }
 
-#filtre i
+#filter_icons i
 {   background: #DEEBFF;
 	color: #0065fc;
 	padding: 12px;
 	border-radius: 24px;	
 	box-shadow:0 0 0 3px #DEEBFF;
 }
-.titles
+.selection
 {	
 	border: 3px solid #F2F2F2;
 	border-radius: 24px;
@@ -159,12 +157,12 @@ form
 	width: auto;
 	margin-left: 25px;
 }
-.titles:hover
+.selection:hover
 {
 	color:#5f3dc4;
 	background:radial-gradient(#c5f6fa, #66d9e8 ,#3bc9db);
 }
-.titles span
+.selection span
 {
 	margin-left: 15px;
 }
@@ -190,21 +188,21 @@ section i
 	margin-top: 50px;
 	margin-bottom: 50px;	
 }
-#contenu
+#container_section
 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;	
 	
 }
-#hebergement
+#hosting
 {
 	background:#F2F2F2;
 	width: 65%;
 	height: 65%;
 	border-radius: 15px;
 }
-#hebergement h1 
+#hosting h1 
 {
 	font-size: 1.1em;
 	padding-left: 25px;
@@ -221,7 +219,7 @@ section :nth-child(2)/* all text Hébergement*/
 	font-weight: normal;
 	margin-left: -10px;
 }
- #afficher
+ #show_more
 {
 	font-size: 1.3em;
 	padding-bottom: 15px;
@@ -260,19 +258,19 @@ section
 
 /* la couleur grise des étoiles*/
 
-#contenu :nth-child(3) :nth-child(8),
-#contenu :nth-child(4) :nth-child(7),
-#contenu :nth-child(4) :nth-child(8),
-#contenu :nth-child(5) :nth-child(8),
+#container_section :nth-child(3) :nth-child(8),
+#container_section :nth-child(4) :nth-child(7),
+#container_section :nth-child(4) :nth-child(8),
+#container_section :nth-child(5) :nth-child(8),
 #star :nth-child(8),
-#lateral  :nth-child(3) :nth-child(8),
-#lateral  :nth-child(4) :nth-child(8)
+#side-view  :nth-child(3) :nth-child(8),
+#side-view  :nth-child(4) :nth-child(8)
 {
 	color: #F2F2F2;
 }
 
 /*css aside---------------------------------------*/
-#lateral
+#side-view
 {
 	background:#F2F2F2;
 	width: 32%;
@@ -282,7 +280,7 @@ section
 	flex-wrap: wrap;
 	justify-content: center;
 }
-#lateral h1
+#side-view h1
 {
 	font-size: 1.1em;	
 	display: flex;
@@ -317,19 +315,19 @@ aside img
 	margin-top: 0px;
 	width: 45%;
 }
-.lateral_one
+.sideward-image
 {
 	width: 60%;
 	height: 120px;
 	padding-left: 15px;
 	margin-left: 0px;
 }
-.lateral_one i
+.sideward-image i
 {
 	margin-top: 40px;
 }
 
-._items
+.all-sections
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -464,13 +462,13 @@ aside i
 	position: relative;
 
 }
-.below .hotel_n
+.below .picture-text
 {
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 }
-#ancre2
+#link2
 {
 	margin-top: 50px;
 	margin-bottom: 0px;
@@ -497,8 +495,8 @@ footer h1
 {
 	font-size: 1.3em;
 	}
-footer p,footer h1, #afficher,.titles,
- #rechercher
+footer p,footer h1, #show_more,.selection,
+ #find_text
 {
 	cursor: pointer;
 }
@@ -507,7 +505,7 @@ footer p,footer h1, #afficher,.titles,
 
 @media screen and (max-width:1144px )
 {	
-	.lateral_one i
+	.sideward-image i
 	{
 		margin-top: 20px;
 	}
@@ -532,12 +530,12 @@ footer p,footer h1, #afficher,.titles,
 	{
 		width: 50%;		
 	}
-	.first,.second
+	.first-nav,.second-nav
 	{
 		text-align:center;
 		order: 3;		
 	}
-	.third
+	.third-nav
 	{
 		text-align:end;
 
@@ -547,15 +545,15 @@ footer p,footer h1, #afficher,.titles,
 		display: block;
 		margin-top: 16px;
 	}
-	.first a:hover ,
-	.second a:hover 
+	.first-nav a:hover ,
+	.second-nav a:hover 
 	{
 	    border-top: none;
 	    color: #0065FC;
 
 	}
-	.first a:hover   #line1,
-	.second a:hover  #line2
+	.first-nav a:hover   #line1,
+	.second-nav a:hover  #line2
 	{
 	   border-top: 3px #0066FC solid;
 	   background: #0065FC;	   		
@@ -568,12 +566,12 @@ footer p,footer h1, #afficher,.titles,
 		margin-top: 3em;
 		margin-bottom:1em; 
 	}
-	#rechercher
+	#find_text
 	{
 		display: none;
 	}
  
- 	#find
+ 	#find_design
 	{	
 		display: block;
 		border-radius: 20px 20px 20px 20px;
@@ -582,36 +580,36 @@ footer p,footer h1, #afficher,.titles,
 	}
 
 	/*css filtres----------------*/
-	#filtre
+	#filter_icons
 	{
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
-	.word
+	.filter_title
 	{
 		width: 100%;
 		font-size: 1.3em;
 	}
 	
-	.tres
+	.heart_icon
 	{
 		margin-right: 1.8em;
 		
 	}
 	
-	.titles
+	.selection
 	{
 		margin-bottom: 1em;	
 		margin-right: 19px;
 		margin-left: unset;		
 	}
-	#filtre i
+	#filter_icons i
     {   	
 		font-size: 1.5em;
 	}
 	/* css aside----------------*/
 
-	#lateral
+	#side-view
 	{
 		width: 105%;
 		order: -1;
@@ -621,7 +619,7 @@ footer p,footer h1, #afficher,.titles,
 		margin-right: -3%;	
 		margin-left: -2%;
 	}
-	.lateral_one i
+	.sideward-image i
 	{
 		margin-top: 3.5em;
 	}
@@ -629,29 +627,29 @@ footer p,footer h1, #afficher,.titles,
 	{
 		box-shadow: 3px 3px 3px 3px lightgrey;
 	}
-	#lateral h1
+	#side-view h1
 	{
 		margin-bottom: 20px;
 		margin-top: 40px;
 	}
 	
-	.hotel_n  br
+	.picture-text  br
 	{
 		display: none;
 	}
 	/*css hébergement-------------*/
-	#hebergement
+	#hosting
 	{
 		width: 100%;
 		padding-right: 5%;
 		padding-left: 5%;
 		background: white;
 	}
-	#hebergement h1
+	#hosting h1
 	{
 		margin-top: 0px;
 	}
-	#contenu
+	#container_section
 	{ 
 		width: 100%;
 	}	
@@ -669,7 +667,7 @@ footer p,footer h1, #afficher,.titles,
 	}
 
 	/*css below--------------*/
-	#ancre2
+	#link2
 	{
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -738,24 +736,24 @@ footer p,footer h1, #afficher,.titles,
 	}
 	
 /*--------------------------------------*/
-	#filtre
+	#filter_icons
 	{
 		flex-direction: row;
 		flex-wrap: wrap;
 		
 	}
-	.word
+	.filter_title
 	{
 		width: 100%;
 		font-size: 1.3em;
 	}
 
-	.tres
+	.heart_icon
 	{		
 		margin-right: 4em;
 	}
 
-	.titles
+	.selection
 	{
 		margin-bottom: 1em;	
 	}
@@ -763,15 +761,15 @@ footer p,footer h1, #afficher,.titles,
 	{
 		margin-top: 1em;
 	}
-	/*css lateral--------------*/
+	/*css side-view--------------*/
 	
-	.lateral_one i
+	.sideward-image i
 	{
 		margin-top: 2em;
 	}
 
 	/*css section--------------*/
-	#hebergement
+	#hosting
 	{
 		background:white;
 	}
@@ -788,12 +786,12 @@ footer p,footer h1, #afficher,.titles,
 		height: 110px;
 		margin-bottom: -25px;
 	}
-	#afficher
+	#show_more
 	{
 		padding-left: 0px;
 	}
 	/* css below------------------*/
-	#ancre2
+	#link2
 	{
 		margin-top: 20px;
 		margin-bottom: 20px;
